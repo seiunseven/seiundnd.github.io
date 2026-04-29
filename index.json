@@ -1,0 +1,7 @@
+{
+  "x": [
+    { "id": 1, "c": 1, "n": "Frost Wisp", "cn": "霜灵精怪", "s": "HOMEBREW", "u": "frost-wisp" },
+    { "id": 2, "c": 2, "n": "Ember Seed", "cn": "余烬种子", "s": "HOMEBREW", "u": "ember-seed" }
+  ],
+  "m": { "s": { "HOMEBREW": 99 } }
+}
