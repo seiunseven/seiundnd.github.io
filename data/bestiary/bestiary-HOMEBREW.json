@@ -1,0 +1,29 @@
+{
+  "monster": [
+    {
+      "name": "霜灵精怪",
+      "ENG_name": "Frost Wisp",
+      "source": "HOMEBREW",
+      "page": 1,
+      "size": "T",
+      "type": "elemental",
+      "alignment": ["N"],
+      "ac": [{"ac": 14, "from": ["natural armor"]}],
+      "hp": {"average": 22, "formula": "5d4 + 10"},
+      "speed": {"fly": 30, "hover": true},
+      "str": 6, "dex": 16, "con": 14,
+      "int": 8, "wis": 12, "cha": 10,
+      "cr": "1/2",
+      "trait": [
+        { "name": "Cold Aura", "entries": [
+          "Any creature within 5 ft. takes {@damage 1d4} cold damage at the start of its turn."
+        ]}
+      ],
+      "action": [
+        { "name": "Frost Touch", "entries": [
+          "{@atk ms} {@hit 5}, reach 5 ft., one target. {@h}{@damage 2d6+3} cold damage."
+        ]}
+      ]
+    }
+  ]
+}
